@@ -1,0 +1,27 @@
+Marta@Marta MINGW64 ~/bootcamp-java-universidad-2023-desafios/git (feature/desafio1)
+$ git log
+commit 58cf95c104ab5066591c5e90ac1f16c47db6cf54 (HEAD -> feature/desafio1, origin/feature/desafio1)
+Author: Martaiza <martiza1973@gmail.com>
+Date:   Sat Jun 17 16:18:09 2023 -0300
+
+    borrar un archivo
+
+commit d83fe9ca65d06b28b4e43b08b9b0de8355972e92
+Author: Martaiza <martiza1973@gmail.com>
+Date:   Sat Jun 17 16:12:37 2023 -0300
+
+    readme.txt add
+
+commit 15f91ebe78e550343a6d1d05ff08a00ff593a5aa (origin/dev, dev)
+Author: Martaiza <martiza1973@gmail.com>
+Date:   Sat Jun 17 16:10:07 2023 -0300
+
+    developer.txt add
+
+commit f6c3fc02ca9b35e064aa3476c5e5525b3ffa0c5d (master)
+Author: Martaiza <martiza1973@gmail.com>
+Date:   Sat Jun 17 16:04:38 2023 -0300
+
+    test.txt subir
+
+
