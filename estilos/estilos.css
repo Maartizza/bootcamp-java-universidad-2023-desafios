@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Roboto' 'Coolvetica' ;
+  src: url('../font/Roboto-Light.ttf') format('truetype'),
+       url('../font/coolvetica rg.otf') format('opentype'),
+}
+
+body{
+	margin:0;
+	padding: 0;
+
+}
+main {
+	margin: 10vw;
+}
+h1{
+	font-family: 'Coolvetica regular';
+	font-size: 120px;
+	color: #0a2ff1;
+	text-align: center;
+
+}
+h2{
+	font-family: 'Roboto-Light';
+	font-size: 40px;
+	color: #04146c;
+	text-align: center;
+}
+.flex-contenedor{
+	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+
+}
+
+.btn1{
+	font-family: 'Roboto-Light regular';
+	font-size: 40px;
+	background-color: #0a2ff1;
+	color: white; 
+	border-style: 3px solid;
+	border-color: #0a2ff1;
+	cursor: pointer;
+	display: block;
+	width: 500px;
+	margin: 10px;
+
+}
+.btn2{
+	font-family: 'Roboto-Light regular';
+	font-size: 40px;
+	color: #04146c;
+	border-style: 3px solid ;
+	border-color: #04146c;
+	cursor: pointer;
+	display: block;
+	width: 500px;
+	margin: 10px;
+	
+
+}
