@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <title>M3 CSS-HTML DESAFIO 3 EJERCICIO 1</title>
+</head>
+<body>
+    <header>
+        <hr>
+        <div>
+            <img id="logo" src="./imagenes/M5-logo-azul.svg" alt="logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </div>
+         
+    </header>
+        <main class="centrar">
+            <h1>¿Querés que nos contactemos con vos?</h1>
+            <h2>Dejanos tu consulta:</h2>
+            <form id="contact" class="contact" name="contact-form" method="post" action="">
+                <div class="form-group">
+                <label for="name">Nombre Completo <span>*</span></label>
+                <input type="text" id="nombre" name="nombre" class="form-control name-field"
+                required="required">
+                </input>
+                </div>
+                <div class="form-group">
+                <label for="name">E-mail <span>*</span></label>
+                <input type="email" id="email" name="email" class="form-control mail-field"
+                 required="required" placeholder="email@address.com"></input>
+                </div>
+                <div class="form-group">
+                <label for="name">Comentario <span>*</span></label>
+                <textarea id="mensaje" name="mensaje" required="required" class="form-control"
+                 rows="12" p></textarea>
+                </div>
+                <div class="form-group">
+                <button type="reset" name="reset" class="btn-reset">Resetear</button>
+                <button type="submit" name="sumbmit" class="btn-sumit">Enviar</button>
+                </div>
+                </form>
+        </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
