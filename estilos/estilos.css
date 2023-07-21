@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,900;1,400&display=swap');
+
+body{
+	font-family: 'Source Sans 3', sans-serif;
+}
+div{
+    border: none !important;
+}
+h1{
+	font-family: 'Source Sans 3', sans-serif !important;
+	font-family: 82px !important;
+	font-weight: bold !important;
+	color: #04146c !important;
+}
+p{
+	font-family: 'Source Sans 3', sans-serif !important;
+	font-family: 21px !important;
+	color: #04146c !important;	
+}
+span{
+	font-style: italic;
+}
+button{
+	font-family: 'Source Sans 3', sans-serif !important;
+	background-color: #04146c !important;
+	color: white;
+	border: none !important;
+	border-radius: none !important;
+	font-variant: small-caps !important;
+}
