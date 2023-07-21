@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap');
+body{
+    font-family: 'Dongle', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+}
+h1{
+    font-family: 'Dongle', sans-serif;
+    font-size: 60px;
+    margin-left: 30px;
+}
+p{
+    font-family: 'Dongle', sans-serif;
+    font-size: 18px;
+}
+.box1{
+    background-color: orange;
+    width: 50%;
+    height: auto;
+    margin: 30px;
+    padding: 10px 10px 10px 30px;
+}
+.box2{
+    background-color: palegoldenrod;
+    width: 50%;
+    height: auto;
+    margin: 30px;
+    padding: 10px 10px 10px 30px;
+}
+.box3{
+    background-color: pink;
+    width: 50%;
+    height: auto;
+    margin: 30px;
+    padding: 10px 10px 10px 30px;
+}
+.box1 {
+    position: relative;
+    animation: mymove 3s;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+}
+.box2 {
+    position: relative;
+    animation: mymove 3s;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    
+  }
+.box3 {
+    position: relative;
+    animation: mymove 3s;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 600px;}
+  }
